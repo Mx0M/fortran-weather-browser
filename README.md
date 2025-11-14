@@ -2,7 +2,7 @@
 
 This project is a **browser-based weather analytics application** using **Fortran compiled to WebAssembly (WASM)**. It fetches weather data for a selected location and processes it using Fortran routines for **mean, moving average, and linear regression**. Results are visualized interactively with **D3.js**, and users can select locations on a map.
 
-**Live Demo:** [https://apps.mkswebs.com/fortran-weather-browser/](https://apps.mkswebs.com/fortran-weather-browser/)
+**Live Demo:** [https://try.mkswebs.com/fortran-weather-browser/](https://try.mkswebs.com/fortran-weather-browser/)
 
 ---
 
