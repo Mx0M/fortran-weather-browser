@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Analysis with WASM + D3.js</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        #map {
+            height: 400px;
+            margin-bottom: 20px;
+        }
+
+        .line {
+            fill: none;
+            stroke-width: 2px;
+        }
+
+        .raw {
+            stroke: steelblue;
+        }
+
+        .smoothed {
+            stroke: orange;
+        }
+
+        .trend {
+            stroke: green;
+            stroke-dasharray: 5 5;
+        }
+
+        .axis path,
+        .axis line {
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .legend rect {
+            fill: white;
+            stroke: black;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Weather Analysis with WASM</h1>
+    <p>Click on the map to select a location:</p>
+    <div id="map"></div>
+    <svg id="chart" width="900" height="500"></svg>
+    <script src="weather_wasm.js"></script>
+</body>
+
+</html>
