@@ -13,6 +13,7 @@ This project is a **browser-based weather analytics application** using **Fortra
   - **Mean temperature**
   - **Moving average**
   - **Linear regression** (trend line)
+- Last 10 days
 - Interactive chart visualization with **D3.js**
 - Select latitude and longitude on a **map** for location-specific data
 - Fully client-side with **WebAssembly**, no server computation required
