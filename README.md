@@ -26,5 +26,4 @@ This project is a **browser-based weather analytics application** using **Fortra
 - **JavaScript** for API fetch, WASM integration, and charting
 - **D3.js** for line charts
 - **Leaflet.js** for interactive map selection
-
 ---
